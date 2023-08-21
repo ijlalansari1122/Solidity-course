@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 8-8-2023/student_registration.sol": "Student_regis"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 8-8-2023/student_registration.sol": {
+			"keccak256": "0x67fc74fdce92f67303e5a900908f13b2417940086d93a00bc1d86753c6a60e8e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75b73d18cf203fccf4959dd69753ca2d247d28ddba1c3bbff6e9ed01c4b58d4a",
+				"dweb:/ipfs/QmaoVEu3e4c4B8RS8pYvJ6sVP65myyQcVTKBZ22s4K4KiF"
+			]
+		}
+	},
+	"version": 1
+}

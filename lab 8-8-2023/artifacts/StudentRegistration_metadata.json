@@ -1,0 +1,147 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum StudentRegistration.Department",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"name": "departmentCounts",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum StudentRegistration.Department",
+						"name": "_studentDepartment",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum StudentRegistration.Status",
+						"name": "_studentStatus",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_obtainedMarks",
+						"type": "uint256"
+					}
+				],
+				"name": "registerStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "registrationDate",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum StudentRegistration.Department",
+						"name": "studentDepartment",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum StudentRegistration.Status",
+						"name": "studentStatus",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "obtainedMarks",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 8-8-2023/test.sol": "StudentRegistration"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 8-8-2023/test.sol": {
+			"keccak256": "0x013e7af55607b11ce7714ea175a92b963469a2f86a7a34ef91f0f7d47fc1f4cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://23b82f41bd802818dd5350af9889c78b51afe246583200a83ff918a9cb1360db",
+				"dweb:/ipfs/QmV8s2KCW8K9wr1hNz4TWRNm7HkkKJHH1fEgbwGhLNLvuY"
+			]
+		}
+	},
+	"version": 1
+}
