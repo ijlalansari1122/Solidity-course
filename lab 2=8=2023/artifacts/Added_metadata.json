@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_passenger",
+						"type": "string"
+					},
+					{
+						"internalType": "enum Added.Days",
+						"name": "_day",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Added.TicketType",
+						"name": "_ticket",
+						"type": "uint8"
+					}
+				],
+				"name": "bookTicket",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getTicketDay",
+				"outputs": [
+					{
+						"internalType": "enum Added.Days",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getTicketType",
+				"outputs": [
+					{
+						"internalType": "enum Added.TicketType",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tickets",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "passenger",
+						"type": "string"
+					},
+					{
+						"internalType": "enum Added.TicketType",
+						"name": "tickettype",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum Added.Days",
+						"name": "day",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bool",
+						"name": "isBooked",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "toggleStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 2=8=2023/Ticketbookingsystem.sol": "Added"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 2=8=2023/Ticketbookingsystem.sol": {
+			"keccak256": "0x5af6bee1c1a6f69459f4fb24f2d2dbb228d1446225b9ebac0685e058e21e99e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://164263cd4c13e240b298b329e36e597893a581433ce1db2963c40d7ef111e5b0",
+				"dweb:/ipfs/QmPLQ62E9deWYedJPgFX6A9XifxsDFeZfZbWyUWi2US57y"
+			]
+		}
+	},
+	"version": 1
+}

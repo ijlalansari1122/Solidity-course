@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "Addtoname",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab 7=08=2023.sol": "Mapp"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab 7=08=2023.sol": {
+			"keccak256": "0x8eedd96833d04a171abcae6a27e49535f70c4ee6d0cae83f123d04e385a2c0b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f8cc96bcda132095c420cddc447f3a663a959d8198256a8b9bdbc144ff3e6826",
+				"dweb:/ipfs/QmWodVmtqveFXH2nbpaxivnVZDcPD57vBGJMse7XCv4Hy2"
+			]
+		}
+	},
+	"version": 1
+}

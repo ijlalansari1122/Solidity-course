@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "merkletree",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab 4-08-2023.sol": "merkle"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab 4-08-2023.sol": {
+			"keccak256": "0x051d4e6ae741bb83d80ccb8963f6dcd79be48dcecdaed619b19a606e2f6ef370",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e7d0173d58a0afd6b30a0f234e1007e6694bc8cb43636b5f9d607127b7263290",
+				"dweb:/ipfs/QmeFPhYjkB2qdYP5RHbL113acYThvpDsYwzSYNSfxhHHyt"
+			]
+		}
+	},
+	"version": 1
+}

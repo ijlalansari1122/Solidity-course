@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "e1",
+				"outputs": [
+					{
+						"internalType": "enum PizzaDeli.Exam",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "p1",
+				"outputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "p2",
+				"outputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "p3",
+				"outputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pass",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "_p1",
+						"type": "uint8"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "singlegetter",
+				"outputs": [
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum PizzaDeli.PizzaOrder",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 01-08-2023.sol": "PizzaDeli"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 01-08-2023.sol": {
+			"keccak256": "0x639f7b77edbb517f84911d5cd7261dac9c349b1c9317383cd5ab816619e092cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5445579137cdbcc4b6ea6d0e128246597e0afaf005f7c082379943289b5d9fc",
+				"dweb:/ipfs/QmQZhzW4Mow7YaSNrYsFLahjfSKvj2KigMLZ1nSuU7UYaj"
+			]
+		}
+	},
+	"version": 1
+}
