@@ -16,7 +16,7 @@ enum  Exam {Pass , fail , scholarship, checking }
 
 
 
-// setting and getting Enums
+// setting and getting Enuma
 
 
 // Exam public e4;
