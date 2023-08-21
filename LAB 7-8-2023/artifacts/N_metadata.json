@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"LAB 7-8-2023/Datalocations.sol": "Name"
+			"LAB 7-8-2023/mapping3.sol": "N"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"LAB 7-8-2023/Datalocations.sol": {
-			"keccak256": "0xb2addedb166bb7d7ffd6c6cb27e09763d97a210f1cd17594a22ae862a38e8a80",
+		"LAB 7-8-2023/mapping3.sol": {
+			"keccak256": "0x64522300b9fdc84d7ceed4a75e99968fc70a70d5a0f9d3630ea523e0bd1789ad",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://256194423ca907a5ffcecb4027295624b1531d4ec29fdfc79502085b9d6c5193",
-				"dweb:/ipfs/Qmf8E3KQf4rp6vj3aBtHD8s37FKDPhMvhyZjkQnAVmf9sp"
+				"bzz-raw://01d63a90563b264e46946dde06d24248685c8babc61778a6efc83f77fd7dce7c",
+				"dweb:/ipfs/QmVHssFAuPYJZNnudWs8BGzQoagUKgqmnmvsi1FeWYrs3p"
 			]
 		}
 	},

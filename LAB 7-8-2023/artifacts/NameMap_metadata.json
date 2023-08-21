@@ -8,6 +8,11 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
@@ -16,19 +21,14 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					},
+					}
+				],
+				"name": "UserMap",
+				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					}
-				],
-				"name": "AddrWalletToName",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -37,81 +37,81 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "_walletname",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "Addvalue",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "_walletname",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_uint",
+						"name": "_yearofbirth",
 						"type": "uint256"
-					}
-				],
-				"name": "Addvalue",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "_walletaddress",
 						"type": "address"
 					},
 					{
 						"internalType": "string",
-						"name": "_walletname",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
+						"name": "_codename",
 						"type": "string"
 					}
 				],
-				"name": "get",
+				"name": "getter",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_yearofbirth",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_walletaddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_codename",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_userName",
+						"type": "string"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_yearofbirth",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_walletaddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_codename",
+						"type": "string"
+					}
+				],
+				"name": "values",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -128,7 +128,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"LAB 7-8-2023/,mapping2.sol": "Mappings"
+			"LAB 7-8-2023/mapping3.sol": "NameMap"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -142,12 +142,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"LAB 7-8-2023/,mapping2.sol": {
-			"keccak256": "0x9957ca95f4e256d30e8661b965f937c21659701244044d8670a04bcd5602668d",
+		"LAB 7-8-2023/mapping3.sol": {
+			"keccak256": "0x83f186adcbb6b40862e8948729568b40cc964a0e9de682e91bdfefb2ce7faaff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e8dcaf9b901e8bc699b5500bb0341b9104eb3d426127342e225f02c7c38a985b",
-				"dweb:/ipfs/QmcwFH55tdeSkCi9whCJbLvWaUkz5JD3hHnp6r3p47viht"
+				"bzz-raw://bf194c75734fc3cc49a0e08ec014d6d5e9317981bbe05428556ed9c1e948cf1b",
+				"dweb:/ipfs/QmXgQ3LMw5FbX8vJa1fgDYvVxRo8raPKXuSDyS47U8N3Y3"
 			]
 		}
 	},

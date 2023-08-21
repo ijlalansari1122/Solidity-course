@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"LAB 7-8-2023/Datalocations.sol": "Name"
+			"LAB 7-8-2023/Datalocations.sol": "e"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"LAB 7-8-2023/Datalocations.sol": {
-			"keccak256": "0xb2addedb166bb7d7ffd6c6cb27e09763d97a210f1cd17594a22ae862a38e8a80",
+			"keccak256": "0x9f91e862167b7312c0be7938d5c91bf8a6b8092d4f0ac7a08a7014cbbef9de1c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://256194423ca907a5ffcecb4027295624b1531d4ec29fdfc79502085b9d6c5193",
-				"dweb:/ipfs/Qmf8E3KQf4rp6vj3aBtHD8s37FKDPhMvhyZjkQnAVmf9sp"
+				"bzz-raw://15a91d46cd22afef402b5cfe460269780355b1dd220ecb137d8cf26c789663fc",
+				"dweb:/ipfs/QmV1Do57dKpmNwYNq8QBT4o4WZ4jArcAgs1Z2nymzhicNZ"
 			]
 		}
 	},

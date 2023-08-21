@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"LAB 7-8-2023/Datalocations.sol": "Name"
+			"LAB 7-8-2023/Datalocations.sol": "Excer"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"LAB 7-8-2023/Datalocations.sol": {
-			"keccak256": "0xb2addedb166bb7d7ffd6c6cb27e09763d97a210f1cd17594a22ae862a38e8a80",
+			"keccak256": "0x30bf3231394887904242413d3eac9d61d8cf4f2be4ef1ca7d097776d7f4a5bdd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://256194423ca907a5ffcecb4027295624b1531d4ec29fdfc79502085b9d6c5193",
-				"dweb:/ipfs/Qmf8E3KQf4rp6vj3aBtHD8s37FKDPhMvhyZjkQnAVmf9sp"
+				"bzz-raw://f39c5b0306ca6c125a113ee96fb026553393f5862ecde447c6ae1cdada350797",
+				"dweb:/ipfs/QmNgjF18oYUYJgQ7VYkTttoaG6SBjEVtT3vuPawzFFgDbj"
 			]
 		}
 	},
