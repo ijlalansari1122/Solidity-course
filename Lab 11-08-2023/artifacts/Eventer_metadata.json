@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_initialOwner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "ZeroAddressInputted",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "Owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab 11-08-2023/exe4.sol": "Eventer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab 11-08-2023/exe4.sol": {
+			"keccak256": "0xbd1c712f2be78dcfc5c4380a4e074d26fb9ebbdd37b7789e30cef3b344d8644a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9cdf873d01167687ee0613a24eb65802ffb588a423d03fdd9bcc55bdda54f232",
+				"dweb:/ipfs/QmQWrw1gCN9aFFNsKGeoS3DL7qh7LohoTubTaJuAnXCaYN"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "messsage",
+						"type": "string"
+					}
+				],
+				"name": "Localvar",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "userInput",
+						"type": "int256"
+					}
+				],
+				"name": "numgive",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "x",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab 11-08-2023/exe5.sol": "Numbers"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab 11-08-2023/exe5.sol": {
+			"keccak256": "0x5cd087f33e502f332cfee38df4493f9d5addacbfca3950506272148470193b7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://31bd9ba8ad80f687ab554d561152bd33b726b603f0563ab8f80e972f333b98f0",
+				"dweb:/ipfs/QmZUxaqNbywRu7LL7NjNq6UYoJuRY6aBakhj7PSEu49AiH"
+			]
+		}
+	},
+	"version": 1
+}
