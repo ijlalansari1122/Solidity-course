@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Singleinheritance1.sol": "Name"
+			"lab 16-08-2023/Multiinherit1.sol": "Modera"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Singleinheritance1.sol": {
-			"keccak256": "0x6fc1a41a90ab01a2517d678921c06f7bb9e0c24bc1499b067b0f031c4535b335",
+		"lab 16-08-2023/Multiinherit1.sol": {
+			"keccak256": "0xef18f12016055046de734aa76efde91f8525ba23ce2c33da73d7a5b4562dd2d3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15939e9901e6b56537020515586f26fd4199456daa4533555d2ada49c604479c",
-				"dweb:/ipfs/Qma4BucRMTE92uvZ6odJnHVB8Qesp5DmdQWeMa4hMFSdsN"
+				"bzz-raw://e4c4f34baf7e005a2cc4bd206c89dce1553d2e15480026f8356786fffdf36319",
+				"dweb:/ipfs/QmPXcZh7CMBpm56TzYo7g5QQc37SDZE3JtRMc4zG2gimpL"
 			]
 		}
 	},

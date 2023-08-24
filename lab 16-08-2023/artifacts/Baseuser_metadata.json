@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Singleinheritance1.sol": "Name"
+			"lab 16-08-2023/Multiinherit1.sol": "Baseuser"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Singleinheritance1.sol": {
-			"keccak256": "0x6fc1a41a90ab01a2517d678921c06f7bb9e0c24bc1499b067b0f031c4535b335",
+		"lab 16-08-2023/Multiinherit1.sol": {
+			"keccak256": "0xbc2794e562fd32f681d1b23f411da27febadfd05ce1d4601409766a6e22a2da1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15939e9901e6b56537020515586f26fd4199456daa4533555d2ada49c604479c",
-				"dweb:/ipfs/Qma4BucRMTE92uvZ6odJnHVB8Qesp5DmdQWeMa4hMFSdsN"
+				"bzz-raw://0275ceef638c01c92f2434b1e05f2efc9ac292c0341a001b7c24bd207798e7dd",
+				"dweb:/ipfs/QmPkCnv67vMtfHx6BQSBcnxhwDGypYTZ4VPPyZBKJBKyYJ"
 			]
 		}
 	},

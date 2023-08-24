@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Singleinheritance1.sol": "Name"
+			"lab 16-08-2023/Singleinheritance1.sol": "Par"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"lab 16-08-2023/Singleinheritance1.sol": {
-			"keccak256": "0x6fc1a41a90ab01a2517d678921c06f7bb9e0c24bc1499b067b0f031c4535b335",
+			"keccak256": "0x3f946fdca64620ca9c1c56b6d37532ce447f7c639a09a84be2e580f2655cb060",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15939e9901e6b56537020515586f26fd4199456daa4533555d2ada49c604479c",
-				"dweb:/ipfs/Qma4BucRMTE92uvZ6odJnHVB8Qesp5DmdQWeMa4hMFSdsN"
+				"bzz-raw://fe3eab281640e025e4075e9e0bd705e9cada0844f56af76b3610f57d4b09ff9b",
+				"dweb:/ipfs/QmRFq2fB8zRmZEcB1NduktArDvMGhpji7bcRPMXuP3rohp"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Singleinheritance1.sol": "Name"
+			"lab 16-08-2023/Task_internal.sol": "Internalchil"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Singleinheritance1.sol": {
-			"keccak256": "0x6fc1a41a90ab01a2517d678921c06f7bb9e0c24bc1499b067b0f031c4535b335",
+		"lab 16-08-2023/Task_internal.sol": {
+			"keccak256": "0x3ecae81652344690553afb7d5677a351d0d6e9d419de06d6dcf4898d57dd2e28",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15939e9901e6b56537020515586f26fd4199456daa4533555d2ada49c604479c",
-				"dweb:/ipfs/Qma4BucRMTE92uvZ6odJnHVB8Qesp5DmdQWeMa4hMFSdsN"
+				"bzz-raw://5a11c7366fd45bbf60764a9feac6b77da8962c060144785b9f51a6dbabcf2bd4",
+				"dweb:/ipfs/QmSQDQTCHqwPKKvNMfE45bR1ch4kG2TQWMsWUgE7HZeDp8"
 			]
 		}
 	},

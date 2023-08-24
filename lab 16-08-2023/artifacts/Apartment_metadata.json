@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Singleinheritance1.sol": "Name"
+			"lab 16-08-2023/External_2.sol": "Apartment"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Singleinheritance1.sol": {
-			"keccak256": "0x6fc1a41a90ab01a2517d678921c06f7bb9e0c24bc1499b067b0f031c4535b335",
+		"lab 16-08-2023/External_2.sol": {
+			"keccak256": "0xe0fbd7ca91814828049a4c794344e1b6c170274af4f37d267ac72536fa89ff86",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15939e9901e6b56537020515586f26fd4199456daa4533555d2ada49c604479c",
-				"dweb:/ipfs/Qma4BucRMTE92uvZ6odJnHVB8Qesp5DmdQWeMa4hMFSdsN"
+				"bzz-raw://c0278cb794730513ddf56ec45ae101ff12d09ebde9779a89ba3d7ea9a4da2180",
+				"dweb:/ipfs/QmcuyJVqCJPhje6PX1419oRYu8SGEuJz3fVTLrcNViWjss"
 			]
 		}
 	},

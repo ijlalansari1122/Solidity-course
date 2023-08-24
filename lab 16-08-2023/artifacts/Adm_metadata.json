@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Singleinheritance1.sol": "Name"
+			"lab 16-08-2023/Multiinherit1.sol": "Adm"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Singleinheritance1.sol": {
-			"keccak256": "0x6fc1a41a90ab01a2517d678921c06f7bb9e0c24bc1499b067b0f031c4535b335",
+		"lab 16-08-2023/Multiinherit1.sol": {
+			"keccak256": "0x7d7482747c0d80d2fa9adf25e03716c9627f85cd418c2b0f8e6cc42d8db64050",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15939e9901e6b56537020515586f26fd4199456daa4533555d2ada49c604479c",
-				"dweb:/ipfs/Qma4BucRMTE92uvZ6odJnHVB8Qesp5DmdQWeMa4hMFSdsN"
+				"bzz-raw://d07e44a422b94071710c2b31fbe01fa00eebb89948664887cfef42cdbfc24d21",
+				"dweb:/ipfs/Qmcbxv1SeVZByZDP9pthbtrYvqQEEdQ3A4BffQn1aYfSgJ"
 			]
 		}
 	},

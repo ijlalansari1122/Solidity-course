@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "childValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "parentValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 16-08-2023/Singleinheritance1.sol": "child"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 16-08-2023/Singleinheritance1.sol": {
+			"keccak256": "0x26d9cf00d30f162e9843813dc7d7be4fabce3eeeeb4d17c45993b1e5d3f47ba0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://55b3e26adcb5b5f3659f91fb0214d15645d040488b54831f2ef01db260bb2827",
+				"dweb:/ipfs/QmVSkAub6pfnhzFW1KnvgthTVNETH7LUnw55FcBvbNyk5n"
+			]
+		}
+	},
+	"version": 1
+}
