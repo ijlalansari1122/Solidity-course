@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab 15-08-2023/Assert_task.sol": "dydan"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab 15-08-2023/Assert_task.sol": {
+			"keccak256": "0x0417438a879902685cd238024f319e1d474d96f7ce80634a81352ee90e0d405f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61373715cade8020a81cc1dd5bb9a15cf3629470df8436ebe718780a6442a725",
+				"dweb:/ipfs/QmRHyc3MoGAge3UrEfSinHf7WhxGizuy9LmNzK19a8Zh7t"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab 15-08-2023/Driver_license.sol": "Driver_l"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab 15-08-2023/Driver_license.sol": {
+			"keccak256": "0xc330c4d065b5b596886d0cbb6bac7534137855ec32cb14afe6a2a4c5b586d137",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c4086b2ad42118edcddf0c59dc27b26f70918b5eaa271103b264a7511a6b90a",
+				"dweb:/ipfs/QmXd8rbkcuGsekmyxgPS58qLnrXP2NLwLtEWtBTPSSqxG3"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cash",
+						"type": "uint256"
+					}
+				],
+				"name": "Insuffecient",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Refillamount",
+						"type": "uint256"
+					}
+				],
+				"name": "ATMrefill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "CashAvailable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "withdrawAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "Moneywithdraw",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab 15-08-2023/Atm.sol": "Atm"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab 15-08-2023/Atm.sol": {
+			"keccak256": "0x68683678fbdb263c94fe58ab05a7cceb7f28ec24e4f1c386d93a6fa7e8375df1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd65e9ffc51f5e8ca856a95a619e45efbd00fdcc1a21d1ce327d176c17e12fec",
+				"dweb:/ipfs/Qmc8xWFMALdgPweT9TZ4CxtULnt5KjFLeYFM8uuWHTHXLB"
+			]
+		}
+	},
+	"version": 1
+}

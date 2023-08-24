@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ChosenDepartment",
+				"outputs": [
+					{
+						"internalType": "enum uni_admission.Department",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "admissionStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "student",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum uni_admission.Department",
+						"name": "selected_s",
+						"type": "uint8"
+					}
+				],
+				"name": "chooseDepartment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "student",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "hasPassed",
+						"type": "bool"
+					}
+				],
+				"name": "setAdmissionStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lab 15-08-2023/uni_admission.sol": "uni_admission"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lab 15-08-2023/uni_admission.sol": {
+			"keccak256": "0x904248a892711fc9749cb6505d8312ef470dd61629ea1768b5926dcfea8f318a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6637b22759045c09b932c181faf6e2a693a4eb39dac8a24482d8272b51abef88",
+				"dweb:/ipfs/QmfJxaiy8Sr6KAs6iYj4jsGwebK5BNo8NyFjHiGHEHAK73"
+			]
+		}
+	},
+	"version": 1
+}
