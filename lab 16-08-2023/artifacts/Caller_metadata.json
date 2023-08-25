@@ -6,21 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
-					}
-				],
-				"name": "setX",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "x",
+				"name": "getResult",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -28,7 +15,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Heirarichal.sol": "Base"
+			"lab 16-08-2023/Inheritlogs.sol": "Caller"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Heirarichal.sol": {
-			"keccak256": "0xaca977de99cbdbb8f70d33493d6be35ed08c39b6eae48eda8ebacf26cf55f0a3",
+		"lab 16-08-2023/Inheritlogs.sol": {
+			"keccak256": "0xf3c84f25441e3583f511e41c6e2da020e1098005d37a1215be1d730d11c0f8ac",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cfdd3967a45ed411ac2cccbd7f4ac40e7f410723d873cdbd0bd11060cadcec22",
-				"dweb:/ipfs/QmaLVzS4qLqw1aaiwgu5mjCTZcARdSr9Eg885jvvzuES5x"
+				"bzz-raw://5d9b87316fd3698d37ffae1082bbf6f95f8404dae25326d7e8a411a2bd98a9c8",
+				"dweb:/ipfs/QmTsif2NtfsiHfnzAGC5Kbm6hSBMRDdHzm1pQu5PUc2zXJ"
 			]
 		}
 	},

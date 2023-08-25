@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Task5.sol": "Par"
+			"lab 16-08-2023/Heircars.sol": "Ca"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Task5.sol": {
-			"keccak256": "0x96376d4413dc41fea0f1ef2291bb42ca7eb24fcdfb901c850cb1409e47da78c5",
+		"lab 16-08-2023/Heircars.sol": {
+			"keccak256": "0x7e99ac9b1968093faf72168091b6999ffc99751e2636d72a29d60ffebe7e1bc6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9bbd591ea3089ada2264589651e62de42fab5a036f36cc1e3a6c73fab1bf8316",
-				"dweb:/ipfs/QmZjCY2euXCRARVPYxpzcWhbKd23zd3iEAfjg1bun2TKTZ"
+				"bzz-raw://1e4e9bbedde74c29726d4218cfe1b332ac0b133f31f1640a8299a891aa4750fa",
+				"dweb:/ipfs/QmbhvPcTg9aJ7bTCqWNPyVrFEkvSPakubyJYvBL2rMgDAH"
 			]
 		}
 	},

@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "tenant",
+						"type": "uint256"
+					}
+				],
+				"name": "joinApartment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +47,11 @@
 	},
 	"sources": {
 		"lab 16-08-2023/External_2.sol": {
-			"keccak256": "0xe0fbd7ca91814828049a4c794344e1b6c170274af4f37d267ac72536fa89ff86",
+			"keccak256": "0xc89bbf220a85d98262b1a174db84d01fa7c2ddeb35980d8f0d7bd94e2e899c62",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c0278cb794730513ddf56ec45ae101ff12d09ebde9779a89ba3d7ea9a4da2180",
-				"dweb:/ipfs/QmcuyJVqCJPhje6PX1419oRYu8SGEuJz3fVTLrcNViWjss"
+				"bzz-raw://1b85a690386d11beefd975205b635165cc414b065a945d5502080c6f6fb2953f",
+				"dweb:/ipfs/QmSXzmMHZjroLdF1oorG1w8YojSaGvihHp3XMT6QCAhFq9"
 			]
 		}
 	},

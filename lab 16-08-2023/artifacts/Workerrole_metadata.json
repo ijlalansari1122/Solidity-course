@@ -6,26 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
-					}
-				],
-				"name": "setX",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "x",
+				"name": "totalWorkSubmitted",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "worker",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Heirarichal.sol": "Base"
+			"lab 16-08-2023/Taskheir4.sol": "Workerrole"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Heirarichal.sol": {
-			"keccak256": "0xaca977de99cbdbb8f70d33493d6be35ed08c39b6eae48eda8ebacf26cf55f0a3",
+		"lab 16-08-2023/Taskheir4.sol": {
+			"keccak256": "0x01148864670d8e4343af0dfbd66e5055c6f2b4a167109ff0475bcc2197d32ab4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cfdd3967a45ed411ac2cccbd7f4ac40e7f410723d873cdbd0bd11060cadcec22",
-				"dweb:/ipfs/QmaLVzS4qLqw1aaiwgu5mjCTZcARdSr9Eg885jvvzuES5x"
+				"bzz-raw://b271f7849205215cf61fe14b0f824092f17765cd730d8af18f74f339d487983c",
+				"dweb:/ipfs/QmPSbHbo7wQEpXXuQAaNiUPS7uYzVkiNxGRKhztwFTBhE8"
 			]
 		}
 	},

@@ -6,22 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "tenant",
-						"type": "uint256"
-					}
-				],
-				"name": "getjoin",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "getter",
+				"name": "getWotrkersdata",
 				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -35,11 +27,50 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "tenant",
+						"name": "workamount",
 						"type": "uint256"
 					}
 				],
-				"name": "joinApartment",
+				"name": "submitwork",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalWorkSubmitted",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "worker",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_worker",
+						"type": "address"
+					}
+				],
+				"name": "workerd",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/External_2.sol": "Tenant"
+			"lab 16-08-2023/Taskheir4.sol": "WorkerRole"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +103,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/External_2.sol": {
-			"keccak256": "0xc89bbf220a85d98262b1a174db84d01fa7c2ddeb35980d8f0d7bd94e2e899c62",
+		"lab 16-08-2023/Taskheir4.sol": {
+			"keccak256": "0x1207004456dc78510a64ab1101d27b1179c0bc7183a6b61acf6f4ccfb58e4743",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1b85a690386d11beefd975205b635165cc414b065a945d5502080c6f6fb2953f",
-				"dweb:/ipfs/QmSXzmMHZjroLdF1oorG1w8YojSaGvihHp3XMT6QCAhFq9"
+				"bzz-raw://751ccbcf8bb1b073c9bb4bade03c2159c2669091f1484072a72b1409d27407b4",
+				"dweb:/ipfs/QmY39uQAui6Qf4aTT34Lx3tBxGnzmysnMPA6aPzjpVkYuz"
 			]
 		}
 	},

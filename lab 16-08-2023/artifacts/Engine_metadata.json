@@ -9,18 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "_horsepower",
 						"type": "uint256"
 					}
 				],
-				"name": "setX",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "x",
+				"name": "horsepower",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -45,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Heirarichal.sol": "Base"
+			"lab 16-08-2023/Heirs3.sol": "Engine"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Heirarichal.sol": {
-			"keccak256": "0xaca977de99cbdbb8f70d33493d6be35ed08c39b6eae48eda8ebacf26cf55f0a3",
+		"lab 16-08-2023/Heirs3.sol": {
+			"keccak256": "0x03835406b737b6081cf5fe140b0c3a14f57ba17565ecb320b8d5bd6014424be3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cfdd3967a45ed411ac2cccbd7f4ac40e7f410723d873cdbd0bd11060cadcec22",
-				"dweb:/ipfs/QmaLVzS4qLqw1aaiwgu5mjCTZcARdSr9Eg885jvvzuES5x"
+				"bzz-raw://9c3aa2da995c7aa9df9e4425cf95af38c3a650aabc74d8459fa177b53bf3032a",
+				"dweb:/ipfs/QmbFk9N9oJNExqEyterxLmUm4nstPBiQtmuV9eLhKifM78"
 			]
 		}
 	},
