@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rollNum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/Contract.sol": "Student"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/Contract.sol": {
+			"keccak256": "0x8bf89a13a101c2ea7e1fbeaf1f01e906a4328d7a5617632363b6a64772ead39b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f1c4899fed61db84205da2e0579853cc93d749066aa4181c934fed78bf57ac8",
+				"dweb:/ipfs/QmcRb6pMJ5MHqLYQwQ67gnM1FUWRsZcffiTrq929wutTEL"
+			]
+		}
+	},
+	"version": 1
+}
