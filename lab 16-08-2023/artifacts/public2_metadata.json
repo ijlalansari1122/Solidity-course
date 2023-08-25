@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getpublicdata",
+				"name": "getpublic",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "publicData",
+				"name": "publicmsg",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Task2.sol": "public2"
+			"lab 16-08-2023/Task1.sol": "public2"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Task2.sol": {
-			"keccak256": "0x662500e27af9b20b8d27a591ab51f87d4d4347371d98ca89a09e94ce9482fcbf",
+		"lab 16-08-2023/Task1.sol": {
+			"keccak256": "0x776194f3681af9ee71224025dc8e4ea6d3616c444a213428b5a87149b014dbcf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0e59c8d28f92cf3be54c2765b652311a62f53f13e24f42cec1baf41f11d6734b",
-				"dweb:/ipfs/QmSXUBCog4E3apkg9vekP61QdRmHvxpqsp1mCfPCDQTJci"
+				"bzz-raw://9e41ac57e518ea12032b0899de1bdcfc8b8b77c0311e4d161f8807fcb027d55a",
+				"dweb:/ipfs/QmWAyfrsupMLiZ4nUCG5E9qKsaAx9267pD1jD2KPpDgzJc"
 			]
 		}
 	},

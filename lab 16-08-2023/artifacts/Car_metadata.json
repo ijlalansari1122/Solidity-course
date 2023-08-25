@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "gearType",
+				"name": "make",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -20,33 +20,44 @@
 			},
 			{
 				"inputs": [],
-				"name": "get",
+				"name": "model",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_make",
+						"type": "string"
 					},
 					{
+						"internalType": "uint256",
+						"name": "_model",
+						"type": "uint256"
+					}
+				],
+				"name": "setvalue",
+				"outputs": [
+					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "horsepower",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -63,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 16-08-2023/Heirs3.sol": "Car"
+			"lab 16-08-2023/Heircars.sol": "Car"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -77,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 16-08-2023/Heirs3.sol": {
-			"keccak256": "0x03835406b737b6081cf5fe140b0c3a14f57ba17565ecb320b8d5bd6014424be3",
+		"lab 16-08-2023/Heircars.sol": {
+			"keccak256": "0x3c1ec7998a046a10747797ac39fea3e6d31255130c7e2508cad6f32a6f2d8865",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9c3aa2da995c7aa9df9e4425cf95af38c3a650aabc74d8459fa177b53bf3032a",
-				"dweb:/ipfs/QmbFk9N9oJNExqEyterxLmUm4nstPBiQtmuV9eLhKifM78"
+				"bzz-raw://d1a0aab85f8145ec42c02f33abd43d2c4cd67746d1a35cc27393113bbc7e0f0c",
+				"dweb:/ipfs/QmdPjAdo4G5M3ChgfYDznDBqvekDb4WtYN7bCUakVf8HzC"
 			]
 		}
 	},

@@ -5,7 +5,7 @@ pragma solidity  ^0.8.17;
 contract Apartment {
 
 uint internal tenenantcount ;
-function  joinApartment(uint tenant) pub   {
+function  joinApartment(uint tenant) external    {
   tenant+=tenenantcount;
 
 
