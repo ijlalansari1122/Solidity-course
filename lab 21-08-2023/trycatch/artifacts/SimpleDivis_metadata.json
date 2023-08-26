@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/trycatch/task.sol": "SimpleDivis"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/trycatch/task.sol": {
+			"keccak256": "0x03bfb692f15bab8a8196de026f8056523d81ba92ac177f04bdf093beaca7821c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a37f420e6a87836b8f1fb4f8e4bd70782c45a898389208bd3bc66241af0ae1be",
+				"dweb:/ipfs/QmZ19gxWWu5WAac9mCHMGxvXfQKg5kkx3KQnDB2N5cdQ9Y"
+			]
+		}
+	},
+	"version": 1
+}

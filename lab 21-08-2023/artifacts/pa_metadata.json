@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "patients",
+				"outputs": [
+					{
+						"internalType": "contract patient",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/Hospitalmanagment.sol": "pa"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/Hospitalmanagment.sol": {
+			"keccak256": "0xf5a3781a6428aa11e4e5c347e618ae62bdec51c64c56b1ca0fab8df3159ab8d9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0739dd64b6db9dcbcf4e5dfe0534bf044bb00da0cc18af2cffaa382702d3568",
+				"dweb:/ipfs/Qmd7u1SpQaruwWo3hePCWCcLDxHN4viZJu4teqed1PZhyB"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/Hospitalmanagment.sol": "h"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/Hospitalmanagment.sol": {
+			"keccak256": "0x9c0524a3cd2ccf19d8d5603b2426db1bac083bbad41c08056a592172444d4ed5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a184b27fbf6c7f53bb95e63f58556b001d3c823d06fcee827674bdfbdfdb47f5",
+				"dweb:/ipfs/QmPvLnD4UAz2Ls7eKpQ7EmaPsNQfdwgzWjr6PjK2wFVQoF"
+			]
+		}
+	},
+	"version": 1
+}

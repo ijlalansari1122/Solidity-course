@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/trycatch/trycatch.sol": "Trycatch"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/trycatch/trycatch.sol": {
+			"keccak256": "0x60f6a2b006e970d1a1322680800c2773bd3c98a5a4058c565585ce3b04065628",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1044a0d2adeb6701e1fbc52a84085ad4db4c1bca36faf4eed20892e939bcad75",
+				"dweb:/ipfs/QmPQDGcwcPaTG3bPRdB6QzNtUw14oaeScTnuUffMrMcUBB"
+			]
+		}
+	},
+	"version": 1
+}
