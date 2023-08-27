@@ -9,16 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "x",
+						"name": "firstVal",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "y",
+						"name": "secondVal",
 						"type": "uint256"
 					}
 				],
-				"name": "add",
+				"name": "GetExponential",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -33,16 +33,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "x",
+						"name": "firstVal",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "y",
+						"name": "secondVal",
 						"type": "uint256"
 					}
 				],
-				"name": "divide",
+				"name": "Sum",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -50,55 +50,20 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "pow",
+				"inputs": [],
+				"name": "foo",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "contract SumContract",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "subtr",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -115,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 21-08-2023/Libtask.sol": "SDP"
+			"lab 21-08-2023/imports/import.sol": "LibraryClient"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -129,12 +94,28 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 21-08-2023/Libtask.sol": {
-			"keccak256": "0x60eb7ccfc5afb862bd25956a589d1d801760cf5841317f283bcbfe949c2bc0df",
+		"lab 21-08-2023/imports/Task.sol": {
+			"keccak256": "0xa94633622aa4c4440a08c7fc5f0fdac2bab5552c50d963dc2952367264c962bc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8a6ef0f883c6113559a525bdfe9b091b703b96267d20d8e9d773e3a4bd2ac9b4",
-				"dweb:/ipfs/QmbfMJRZt2FCiKQsreP6Cw5fGAcKUPjXrS1WkTEXp3viMM"
+				"bzz-raw://d31340d853f9e8600b46b9ebcac5055e5b81238dd8c07cdb3f490003331b3040",
+				"dweb:/ipfs/QmcZNczwJvi6H291fso4EaAq4YQTZzbQtkUwZDtXK3rLrR"
+			]
+		},
+		"lab 21-08-2023/imports/Task2.sol": {
+			"keccak256": "0x0cd01299fba8c4b08b82f1c167bd5586bf374310dbb2211ceed5dd2adbe57c19",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1728b505ec135a1adf7a47f2e2f69f8b66b2dbd471a5d7d73455a0ad47a2e1d2",
+				"dweb:/ipfs/QmRE3noF12LKyidvxX8XiNW3SkZQGtntPDLxYkVGVWTTjQ"
+			]
+		},
+		"lab 21-08-2023/imports/import.sol": {
+			"keccak256": "0x12172956557157e9fdc8b9b53cf7bdf8fae8d530edd7d65c55bd3dadc8c221ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d7c916b662d129ae30d62626e666f88f1da1946576006156409b13965a7bdbe1",
+				"dweb:/ipfs/QmRXpeospiCEoHHoyZyCToaNujJp47kTYp4kvUV6oJoseH"
 			]
 		}
 	},

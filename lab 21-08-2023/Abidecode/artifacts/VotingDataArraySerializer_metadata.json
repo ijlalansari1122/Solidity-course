@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "decode",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "voterAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "voterID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256[3]",
+								"name": "dateOfBirth",
+								"type": "uint256[3]"
+							}
+						],
+						"internalType": "struct VotingDataArraySerializer.VoterData[]",
+						"name": "voters",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "voterAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "voterID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256[3]",
+								"name": "dateOfBirth",
+								"type": "uint256[3]"
+							}
+						],
+						"internalType": "struct VotingDataArraySerializer.VoterData[]",
+						"name": "voters",
+						"type": "tuple[]"
+					}
+				],
+				"name": "serializeVoterDataArray",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/Abidecode/Task.sol": "VotingDataArraySerializer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/Abidecode/Task.sol": {
+			"keccak256": "0x6136d5335b25ad5104f91422a83c0ee6fd5da396cbbd0938f95e1eed6bee30cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0f8461bc28d74a34f3698a405ece6f96a496809dc5edb5c3525d7e6ee152c25",
+				"dweb:/ipfs/QmZukKB1PCTfUSXhmPiiKi2YC5NHBif6DFm7DHmJNGZ4Dd"
+			]
+		}
+	},
+	"version": 1
+}

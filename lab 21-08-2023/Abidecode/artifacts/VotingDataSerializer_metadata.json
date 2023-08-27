@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_voterAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_voterID",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "_dateOfBirth",
+						"type": "uint256[3]"
+					}
+				],
+				"name": "serializeVoterData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/Abidecode/Task.sol": "VotingDataSerializer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/Abidecode/Task.sol": {
+			"keccak256": "0x337fbcfbb032021bcd95c00d03885fefac5a63b44446ddcc400ff0590bb4f4d2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff8c3b096aee4cc15150d903c6ab195f6feb6037918b0ba0f7cae5f05b006d46",
+				"dweb:/ipfs/QmT2hWauNpPtAzuMigNRG53HGcQNrXqKgR8DbRSyFZNRFa"
+			]
+		}
+	},
+	"version": 1
+}

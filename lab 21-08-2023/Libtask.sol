@@ -30,10 +30,26 @@ library  SDP {
 
 contract getsdp {
     
-function  get() public view returns (uint)  {
-    return add();
-}
+ // Import the SDP library
+    using SDP for uint;
 
+ struct Result {
+        uint addResult;
+        uint subtrResult;
+        uint divideResult;
+        uint powResult;
+    }
+
+    function get() public pure returns (Result memory) {
+        Result memory results;
+        
+        results.addResult = uint(2).add(3);
+        results.subtrResult = uint(2).subtr(3);
+        results.divideResult = uint(2).divide(3);
+        results.powResult = uint(2).pow(3);
+        
+        return results;
+    }
 
 
 

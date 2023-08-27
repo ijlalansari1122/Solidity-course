@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/Abiencode/Abiencode.sol": "encodewithsignuati"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/Abiencode/Abiencode.sol": {
+			"keccak256": "0x4c50b3083e53ffb3d67cae3ad66bb7ec262bf01f468a271c19aa7c7f0271d1ce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0014235695116cd9826bcb7a9fdd993bb8f639eb4f41af57f3c1cc1039a5e217",
+				"dweb:/ipfs/Qme9cH7M5YgrcLNFJkCXDohQ9YSPsCGy6iWGW6osrfiXG1"
+			]
+		}
+	},
+	"version": 1
+}

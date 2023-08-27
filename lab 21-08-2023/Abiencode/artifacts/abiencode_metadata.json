@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "data",
+						"type": "uint256"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/Abiencode/Abiencode.sol": "abiencode"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/Abiencode/Abiencode.sol": {
+			"keccak256": "0x03ef01b231f81831fd05d639925d9227093c313f535a96f3adf1104e0e4f2742",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6774e7e1c039464dfef03a4d39081ec5338c7de3df8e2f0082376154bcf87f16",
+				"dweb:/ipfs/QmcNrxQ8EF9FBEApZj93s9wVuReM7Ai2MdKUZc8XivcHJz"
+			]
+		}
+	},
+	"version": 1
+}

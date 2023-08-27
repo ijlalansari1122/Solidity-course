@@ -6,35 +6,41 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [
+				"inputs": [
 					{
 						"components": [
 							{
-								"internalType": "uint256",
-								"name": "addResult",
-								"type": "uint256"
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
 							},
 							{
 								"internalType": "uint256",
-								"name": "subtrResult",
+								"name": "model",
 								"type": "uint256"
 							},
 							{
-								"internalType": "uint256",
-								"name": "divideResult",
-								"type": "uint256"
+								"internalType": "string",
+								"name": "maker",
+								"type": "string"
 							},
 							{
 								"internalType": "uint256",
-								"name": "powResult",
+								"name": "warranty",
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct getsdp.Result",
-						"name": "",
+						"internalType": "struct Encoded.Laptop",
+						"name": "laptop",
 						"type": "tuple"
+					}
+				],
+				"name": "enoded",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "result",
+						"type": "bytes"
 					}
 				],
 				"stateMutability": "pure",
@@ -54,7 +60,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab 21-08-2023/Libtask.sol": "getsdp"
+			"lab 21-08-2023/Abiencode/Task.sol": "Encoded"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -68,12 +74,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab 21-08-2023/Libtask.sol": {
-			"keccak256": "0x60eb7ccfc5afb862bd25956a589d1d801760cf5841317f283bcbfe949c2bc0df",
+		"lab 21-08-2023/Abiencode/Task.sol": {
+			"keccak256": "0x3487fad23b708f2c4b71c2cb527a8b8417e894df5b4c435e4e358e3773107e4c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8a6ef0f883c6113559a525bdfe9b091b703b96267d20d8e9d773e3a4bd2ac9b4",
-				"dweb:/ipfs/QmbfMJRZt2FCiKQsreP6Cw5fGAcKUPjXrS1WkTEXp3viMM"
+				"bzz-raw://a26750953fa54c2d3c48f36dee80d414492bd5569e93149e3af41c7aa8d72d56",
+				"dweb:/ipfs/QmVaPxexGZY3xpteUXFjGyBeNPrbsNRgg9vcYEo6mYRsxV"
 			]
 		}
 	},

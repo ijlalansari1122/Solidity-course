@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "exponential",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 21-08-2023/imports/Task.sol": "Explibrary"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 21-08-2023/imports/Task.sol": {
+			"keccak256": "0xa94633622aa4c4440a08c7fc5f0fdac2bab5552c50d963dc2952367264c962bc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d31340d853f9e8600b46b9ebcac5055e5b81238dd8c07cdb3f490003331b3040",
+				"dweb:/ipfs/QmcZNczwJvi6H291fso4EaAq4YQTZzbQtkUwZDtXK3rLrR"
+			]
+		}
+	},
+	"version": 1
+}
