@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "PaymentReceived",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "receivePayment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab 22-08-2023/Task1.sol": "PaymentContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab 22-08-2023/Task1.sol": {
+			"keccak256": "0x09e6a593b91b5f99ba12389413599a7d696dea74d7f16011c502b9d60a86a2c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b558c17a0d3d20e7b49d4c6c874a821ebbcf36055590a28b29320d6c4a94510f",
+				"dweb:/ipfs/QmRaPuNFWhtvLDojg3QD9bWtbbQhzr8noanv8B7caGuU4f"
+			]
+		}
+	},
+	"version": 1
+}
