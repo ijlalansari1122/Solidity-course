@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"peertopeerlendingplatform/safeMath.sol": {
-			"keccak256": "0x47f97f6d874bd3c89e5059767dcafdb24a7e54cda8dde8e847e373588e5e4601",
+			"keccak256": "0xbd0e2e8d3b7e8705039b0d64091ca4643e24367a5212dea1ca5af9770181d51a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e325a16599cf562534a69d005ccc5f8b376dd50e97eacfe33eacb50dfafc4ae8",
-				"dweb:/ipfs/Qmc9XfxKMpARv8bAhXTb5jPhHhSctimtLVzM35rbjNnndk"
+				"bzz-raw://48caf5991c85d9fd2038304636471aa00cca90ed48e4e18b9c45fa5572b4346b",
+				"dweb:/ipfs/QmWdJFjHvrJaSF4NeE7hLsDSV8miJVD9DQWVRuEYFsRuPm"
 			]
 		}
 	},
