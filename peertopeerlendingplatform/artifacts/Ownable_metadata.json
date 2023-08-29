@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_currentowner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_newowner",
+						"type": "address"
+					}
+				],
+				"name": "LogOwnershipTransfered",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"peertopeerlendingplatform/Ownable.sol": "Ownable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"peertopeerlendingplatform/Ownable.sol": {
+			"keccak256": "0x09e50a2d81fb8209d1b9e211807256e630c83b4566013f62feadcbf4aa019e21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea104ce50d11bfd9b3f8ed224c3b76597475b5d586eb4cf60a770611fa3f1a9d",
+				"dweb:/ipfs/QmZu3Yi559NAz3ENpEzyGpRR8RGhGxHDunYDcvdZ399vXT"
+			]
+		}
+	},
+	"version": 1
+}
