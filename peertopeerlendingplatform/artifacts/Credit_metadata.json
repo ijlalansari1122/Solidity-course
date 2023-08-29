@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -56,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"peertopeerlendingplatform/Ownable.sol": "Ownable"
+			"peertopeerlendingplatform/Credit.sol": "Credit"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -70,12 +65,28 @@
 		"remappings": []
 	},
 	"sources": {
+		"peertopeerlendingplatform/Credit.sol": {
+			"keccak256": "0xdee99f86211f20400ac860a550d1facaf45c9bbfecb05b85f17ba22b7a93a79a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://26144c59821a848e7f70435116bf11076ec0b8c63fb428d0d4194ccb12c9940e",
+				"dweb:/ipfs/QmUeRGmfip6g7LYq6M3ZGhmN9vvsuEio4WaCxjaQaQLyhC"
+			]
+		},
 		"peertopeerlendingplatform/Ownable.sol": {
 			"keccak256": "0x0cfc9ad425c0be9c417c57086c8dba5bf75a7065cd9ce9a34c97f3a688be7aad",
 			"license": "MIT",
 			"urls": [
 				"bzz-raw://68c2428a7afc22e137705acdd8e31d4f843e460656dbed273033817f6ff975db",
 				"dweb:/ipfs/QmbvRFn8fYKcjMS49TAzWmdVX4QU94FYXRot3f1jzu4bU7"
+			]
+		},
+		"peertopeerlendingplatform/safeMath.sol": {
+			"keccak256": "0x47f97f6d874bd3c89e5059767dcafdb24a7e54cda8dde8e847e373588e5e4601",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e325a16599cf562534a69d005ccc5f8b376dd50e97eacfe33eacb50dfafc4ae8",
+				"dweb:/ipfs/Qmc9XfxKMpARv8bAhXTb5jPhHhSctimtLVzM35rbjNnndk"
 			]
 		}
 	},

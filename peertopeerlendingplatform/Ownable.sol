@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.17;
-
+pragma solidity  ^0.8.17;
 contract  Ownable {
     
 address public  owner;
@@ -9,7 +8,7 @@ address public  owner;
 event LogOwnershipTransfered(address indexed  _currentowner , address indexed  _newowner);
 
 
-modifier add(){
+modifier onlyOwner(){
     require(msg.sender == owner);
     _;
 }

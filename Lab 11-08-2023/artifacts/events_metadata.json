@@ -82,11 +82,11 @@
 	},
 	"sources": {
 		"Lab 11-08-2023/events,.sol": {
-			"keccak256": "0xdd6d2e9d4d8f00e854f2207f7b2893e8d9decc6cbff406660eca63acc63d0da1",
+			"keccak256": "0xa96ea3d8c7f0c8d1e8473084775774d39946752cd02959aade94adbc2336e477",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://301094bd1865b1da56bd9258a2735662e7ba2518673e2527e18390caf4c0d18f",
-				"dweb:/ipfs/QmXaXjvqN7kHL6yxCcCWp3Y7SsYjDLWxLJBqkEmj8DtzJy"
+				"bzz-raw://b19427c19c5298f42f1dc945628c52e452cf322cc7670360ce3e4a4b56ebb3ce",
+				"dweb:/ipfs/Qmaz9XHVJWfLSkNQyUxjHN6ywFWizSCAg5fPqH2Gxk7BZP"
 			]
 		}
 	},

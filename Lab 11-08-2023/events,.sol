@@ -15,6 +15,7 @@ function _transfer(address from, address to, uint256 amount)external {
  _balances[to] += amount; 
  
  emit Transfer(from, to, amount); 
+ emit Transfer(from, to, amount+1) ;
 
 
 
