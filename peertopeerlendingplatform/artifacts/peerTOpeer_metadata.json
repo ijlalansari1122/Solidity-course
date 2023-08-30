@@ -1,0 +1,360 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "bool",
+						"name": "active",
+						"type": "bool"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "LogCreditedActiveChanged",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_borrower",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "LogCreditedCreated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "enum Credit.State",
+						"name": "state",
+						"type": "uint8"
+					},
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "LogCreditedStateChanged",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_currentowner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_newowner",
+						"type": "address"
+					}
+				],
+				"name": "LogOwnershipTransfered",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "fraudStatus",
+						"type": "bool"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "LogUserSetFraud",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Credit",
+						"name": "_credit",
+						"type": "address"
+					}
+				],
+				"name": "ToggleCreditState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "requestedAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "repaymentsCount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "interest",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "creditDescription",
+						"type": "bytes"
+					}
+				],
+				"name": "applyForCredit",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "_credit",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Credit",
+						"name": "_credit",
+						"type": "address"
+					},
+					{
+						"internalType": "enum Credit.State",
+						"name": "state",
+						"type": "uint8"
+					}
+				],
+				"name": "changeCreditState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "credits",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCredits",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUserCredits",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_borrower",
+						"type": "address"
+					}
+				],
+				"name": "setFraudStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "credited",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "activeCredit",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "Fraudstatus",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"peertopeerlendingplatform/peerTOpeer.sol": "peerTOpeer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"peertopeerlendingplatform/Credit.sol": {
+			"keccak256": "0x3ce215fff03f62c695bfcfec73e57c82d978d9dc517bf6c2bdb3ff73713c0f7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://396b006e4c25a32e6e7f25c19f9fcb3c7279b4018f79680296b5d64cf3ae9019",
+				"dweb:/ipfs/QmcYnWf57EVADWqQkTxdTfKDa4idRaT8hVBxr21Z1VySjD"
+			]
+		},
+		"peertopeerlendingplatform/Ownable.sol": {
+			"keccak256": "0x0cfc9ad425c0be9c417c57086c8dba5bf75a7065cd9ce9a34c97f3a688be7aad",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://68c2428a7afc22e137705acdd8e31d4f843e460656dbed273033817f6ff975db",
+				"dweb:/ipfs/QmbvRFn8fYKcjMS49TAzWmdVX4QU94FYXRot3f1jzu4bU7"
+			]
+		},
+		"peertopeerlendingplatform/peerTOpeer.sol": {
+			"keccak256": "0x15ccc351409be4aff22539e589b0e48b4755198b57fcf66eacbcbde956920a1c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e16006548354c3ea4b1e51802a42ebc50b8550f250a14473ff43f0bd4bf49841",
+				"dweb:/ipfs/QmWa9broh3Fi62rDL3EiMwEwUbbtHPQbVcA8Sd7CY1aiA2"
+			]
+		},
+		"peertopeerlendingplatform/safeMath.sol": {
+			"keccak256": "0xbd0e2e8d3b7e8705039b0d64091ca4643e24367a5212dea1ca5af9770181d51a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48caf5991c85d9fd2038304636471aa00cca90ed48e4e18b9c45fa5572b4346b",
+				"dweb:/ipfs/QmWdJFjHvrJaSF4NeE7hLsDSV8miJVD9DQWVRuEYFsRuPm"
+			]
+		}
+	},
+	"version": 1
+}

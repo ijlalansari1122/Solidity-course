@@ -143,9 +143,9 @@
 				"inputs": [
 					{
 						"indexed": true,
-						"internalType": "enum Credit.State",
+						"internalType": "bool",
 						"name": "active",
-						"type": "uint8"
+						"type": "bool"
 					},
 					{
 						"indexed": true,
@@ -361,6 +361,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "invest",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "owner",
 				"outputs": [
 					{
@@ -370,6 +377,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "toggleActive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -401,11 +421,11 @@
 	},
 	"sources": {
 		"peertopeerlendingplatform/Credit.sol": {
-			"keccak256": "0x1c355876b02f794c2b32a5f17a179b604ead7fe8c1691513e42dae415a865870",
+			"keccak256": "0x3ce215fff03f62c695bfcfec73e57c82d978d9dc517bf6c2bdb3ff73713c0f7b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5c68a73a0b1f17316903a82259a54cb3781ced4349286d96c1e8d157d4e20833",
-				"dweb:/ipfs/QmeuSep6vPoA1LJwBBfidHVoBy9m3Ytn69ivpQ1PJrZkyQ"
+				"bzz-raw://396b006e4c25a32e6e7f25c19f9fcb3c7279b4018f79680296b5d64cf3ae9019",
+				"dweb:/ipfs/QmcYnWf57EVADWqQkTxdTfKDa4idRaT8hVBxr21Z1VySjD"
 			]
 		},
 		"peertopeerlendingplatform/Ownable.sol": {
@@ -417,11 +437,11 @@
 			]
 		},
 		"peertopeerlendingplatform/safeMath.sol": {
-			"keccak256": "0x47f97f6d874bd3c89e5059767dcafdb24a7e54cda8dde8e847e373588e5e4601",
+			"keccak256": "0xbd0e2e8d3b7e8705039b0d64091ca4643e24367a5212dea1ca5af9770181d51a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e325a16599cf562534a69d005ccc5f8b376dd50e97eacfe33eacb50dfafc4ae8",
-				"dweb:/ipfs/Qmc9XfxKMpARv8bAhXTb5jPhHhSctimtLVzM35rbjNnndk"
+				"bzz-raw://48caf5991c85d9fd2038304636471aa00cca90ed48e4e18b9c45fa5572b4346b",
+				"dweb:/ipfs/QmWdJFjHvrJaSF4NeE7hLsDSV8miJVD9DQWVRuEYFsRuPm"
 			]
 		}
 	},

@@ -74,11 +74,11 @@ contract Credit is Ownable {
     );
 
     // logscreditStatechanged
-    event LogCreditStateChanged(State indexed state, uint256 indexed timestamp);
+    event LogCreditStateChanged(State indexed  state, uint256 indexed timestamp);
 
     // logscreditStateActivechanged
     event LogCreditStateActiveChanged(
-        State indexed active,
+        bool indexed active,
         uint256 indexed timestamp
     );
 
